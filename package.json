@@ -14,8 +14,20 @@
     "postuninstall": "node scripts/postuninstall.js"
   },
   "author": "Shripal Soni",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shripalsoni04/nativescript-material-icons"
+  },
+  "bugs": {
+    "url": "https://github.com/shripalsoni04/nativescript-material-icons/issues"
+  },
+  "keyeords": [
+    "nativescript",
+    "material design icons",
+    "nativescript material design icons"
+  ],
   "devDependencies": {
     "material-design-icons": "^3.0.1"
-  }
+  },
+  "license": "MIT"
 }
