@@ -1,6 +1,6 @@
 {
   "name": "nativescript-material-icons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package containing ready to use material design icon font and css classes for nativescript projects. ",
   "nativescript": {
     "platforms": {
