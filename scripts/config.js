@@ -17,6 +17,7 @@ module.exports = {
       cssFileDestPath: cwd + cssFileName
   },
   fontFileSrcPath: cwd + fontFileName,
+  fontFileDestDir: appDir + 'fonts', 
   fontFileDestPath: appDir + 'fonts/' + fontFileName,
   cssFileSrcPath: cwd + cssFileName,
   cssFileDestPath: appDir + cssFileName

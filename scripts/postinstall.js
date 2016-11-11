@@ -5,6 +5,10 @@ var fs = require('fs');
 var config = require('./config');
 
 function copyFontFile() {
+  // create font directory if does not exist.
+  if(!fs.existsSync(config.fontFileDestDir)){
+    fs.mkdirSync(config.fontFileDestDir);
+  }
   fs.writeFileSync(config.fontFileDestPath, fs.readFileSync(config.fontFileSrcPath));
 }
 
