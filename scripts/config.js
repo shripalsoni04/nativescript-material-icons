@@ -3,7 +3,7 @@ var path = require('path');
 
 var cwd = process.cwd() + '/';
 var primaryDir = path.normalize(cwd + "../../");
-var appDir = path.join(primaryDir,'src/app/');
+var appDir = path.join(primaryDir,'src/');
 
 var fontFileName = 'MaterialIcons-Regular.ttf';
 var cssFileName = 'material-design-icons.css';
